@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 旅禾小栈
+title: 主页
 description: 永不熄灭的理想之焰，足可抵挡凛冬的风霜刀剑
 ---
 
