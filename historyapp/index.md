@@ -2,8 +2,8 @@
 layout: default
 title: 古国简展
 description: 一个开放历史类数据项目
-url: historyapp.qqzhi.cc
-urlText: 点击进入
+btnUrl: historyapp.qqzhi.cc
+btnText: 点击进入
 ---
 
 ## 关于『古国简展』
