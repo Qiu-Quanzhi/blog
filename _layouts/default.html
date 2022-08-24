@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
 
 {% seo %}
+    {% if page.title == site.title %}
+      <title>{{site.title}}</title>
+    {% endif %}
+    {% if page.title != site.title %}
+      <title>{{page.title|site.title}}</title>
+    {% endif %}
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
     <meta name="viewport" content="width=device-width, initial-scale=1">
