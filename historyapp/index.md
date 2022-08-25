@@ -4,7 +4,7 @@ title: 古国简展
 description: 一个开放历史类数据项目
 subUrl: https://support.qq.com/product/422563
 subText: 反馈&建议
-btnUrl: https://historyapp.qqzhi.cc/
+btnUrl: https://www.qqzhi.cc/historyApp/
 btnText: 点击进入
 ---
 
@@ -14,6 +14,7 @@ btnText: 点击进入
 并在地图图像上将其展现出来  
 欢迎共同完善这个项目！**
 
+## 更新内容
 **1.0版本更新内容**（2022.8.7） **：**
 - 增加 `古希腊`、`古罗马`与`法兰克王国`3个国家
 - 上线 [古国简展网页](https://historyapp.qqzhi.cc/)
