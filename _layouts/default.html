@@ -8,7 +8,7 @@
       <title>{{site.title}}</title>
     {% endif %}
     {% if page.title != site.title %}
-      <title>{{page.title|site.title}}</title>
+      <title>{{page.title}} - {{site.title}}</title>
     {% endif %}
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
@@ -24,20 +24,28 @@
     <header class="page-header" role="banner">
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+      {% if page.lbtnUrl %}
+        <a href="{{ page.lbtnUrl }}" class="btn">{{ page.lbtnText }}</a>
+      {% endif %}
       {% if page.btnUrl %}
         <a href="{{ page.btnUrl }}" class="btn">{{ page.btnText }}</a>
       {% endif %}
+      {% if page.rbtnUrl %}
+        <a href="{{ page.rbtnUrl }}" class="btn">{{ page.rbtnText }}</a>
+      {% endif %}
+
       <!--{% if site.show_downloads %}
         <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
         <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
       {% endif %}--!>
+
     </header>
 
     <main id="content" class="main-content" role="main">
       {{ content }}
 
       <footer class="site-footer">
-        <span class="site-footer-credits"><a href="https://www.qqzhi.cc/">小栈首页</a> | <a href="https://www.qqzhi.cc/">旅禾Tristan</a></span>
+        <span class="site-footer-credits"><a href="https://blog.qqzhi.cc/">小栈首页</a> · <a href="https://www.qqzhi.cc/">旅禾Tristan</a></span>
       </footer>
     </main>
   </body>
