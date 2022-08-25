@@ -2,12 +2,12 @@
 layout: default
 title: 古国简展
 description: 一个开放历史类数据项目
-btnUrl: https://support.qq.com/product/422563
-btnText: 反馈&建议
+lbtnUrl: https://support.qq.com/product/422563
+lbtnText: 反馈&建议
 btnUrl: https://historyapp.qqzhi.cc/
 btnText: 点击进入
-btnUrl: https://github.com/Qiu-Quanzhi/historyApp
-btnText: Github项目地址
+rbtnUrl: https://github.com/Qiu-Quanzhi/historyApp
+rbtnText: Github项目地址
 ---
 
 ## 关于『古国简展』
