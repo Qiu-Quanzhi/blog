@@ -27,9 +27,14 @@
       {% if page.lbtnUrl %}
         <a href="{{ page.lbtnUrl }}" class="btn">{{ page.lbtnText }}</a>
       {% endif %}
-      {% if page.btnUrl %}
-        <a href="{{ page.btnUrl }}" class="btn">{{ page.btnText }}</a>
-      {% endif %}
+      <div style="display: flex;flex-direction: column;">
+        {% if page.btnUrl %}
+          <a href="{{ page.btnUrl }}" class="btn">{{ page.btnText }}</a>
+        {% endif %}
+        {% if page.subUrl %}
+          <a href="{{ page.subUrl }}">{{ page.subText }}</a>
+        {% endif %}
+      </div>
       {% if page.rbtnUrl %}
         <a href="{{ page.rbtnUrl }}" class="btn">{{ page.rbtnText }}</a>
       {% endif %}
