@@ -7,6 +7,7 @@ subText: 反馈&建议
 btnUrl: https://www.qqzhi.cc/historyApp/
 btnText: 点击进入
 ---
+本项目知识库遵循[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.zh)协议
 
 ## 关于『古国简展』
 **[古国简展](https://historyapp.qqzhi.cc/)是一个开放历史类数据项目  
