@@ -2,6 +2,7 @@
 layout: default
 title: 旅禾小栈
 description: 永不熄灭的理想之焰，足可抵挡凛冬的风霜刀剑
+onTask: - [可交互壁纸集](/wallpaper/)
 ---
 
 > **欢迎来到旅禾小栈！  
@@ -10,7 +11,7 @@ description: 永不熄灭的理想之焰，足可抵挡凛冬的风霜刀剑
 ## 项目作品
 - [古国简展](/historyapp/)
 - [Ideosorter桌面应用](/ideosorter/)
-- [可交互壁纸集](/wallpaper/)
+
 
 ## 联系方式
   - 微信：Qiu-Quanzhi 
