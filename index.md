@@ -10,7 +10,7 @@ onTask: - [可交互壁纸集](/docs/wallpaper)
 
 ## 项目作品
 - [古国简展](/docs/historyapp)
-- [Ideosorter桌面应用](/docs/ideosorter/)
+- [Ideosorter桌面应用](/docs/ideosorter)
 
 
 ## 联系方式
