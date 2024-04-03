@@ -1,0 +1,27 @@
+---
+# https://vitepress.dev/reference/default-theme-home-page
+layout: home
+
+hero:
+  name: "旅禾小栈"
+  text: "停书笥"
+  tagline: 在这里，欢迎阅览各类文档文案！
+  actions:
+    - theme: brand
+      text: 文作专阁
+      link: ./articles
+    - theme: alt
+      text: 造物暇坊
+      link: ./documents
+    - theme: alt
+      text: 旅禾主站
+      link: https://www.qqzhi.cc/
+
+features:
+  - title: 始序阁
+    details: 存晾各类杂笔散记<br>更多内容移步微信公众号：<b>旅禾Tristan</b>！
+  - title: 暇造坊
+    details: 挂展各造物之文档<br>琳琅各色的应用项目，在此静候光临
+  - title: 旅禾主站
+    details: 进入主站<br>来看一看，说不定会有什么好玩儿的？
+---
