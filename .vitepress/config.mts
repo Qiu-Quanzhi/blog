@@ -1,5 +1,5 @@
 import { defineConfig } from 'vitepress'
-import content from '../content'
+import index from '../index'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   lang: "zh-CN",
@@ -16,27 +16,17 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
-      { text: '始序阁', link: '/articles' },
-      { text: '暇造坊', link: '/documents' },
+      ...index.indexs,
       { text: '主站', link: 'https://www.qqzhi.cc/' }
     ],
     
-    sidebar: {
-      '/articles/':[{
-        text: '始序阁',
-        items: content.get('articles')
-      }],
-      '/documents/':[{
-        text: '暇造坊',
-        items: content.get('documents')
-      }]
-    },
+    sidebar: index.getSidebar(),
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Qiu-Quanzhi' }
     ],
     footer: {
       message: '未经作者授权，禁止转载',
-      copyright: `© ${new Date(Date.now() + 8 * 60 * 60 * 1000).getFullYear()} 旅禾Tristan`
+      copyright: `© ${new Date(Date.now() + 8 * 60 * 60 * 1000).getUTCHours()} 旅禾Tristan`
     },
     logo: 'https://www.qqzhi.cc/favicon.ico',
     siteTitle: '旅禾小栈·未名岛',
@@ -97,10 +87,10 @@ export default defineConfig({
   },
   sitemap: {
     hostname: 'https://blog.qqzhi.cc',
-    lastmodDateOnly: true,
+    lastmodDateOnly: false,
     transformItems(items) {
         console.log(items.filter)
-        return items.filter((page)=>!['articles','documents'].includes(page.url))
+        return items.filter((page)=>!index.getIndex().includes(page.url))
     },
   }
 })
