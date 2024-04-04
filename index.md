@@ -1,7 +1,7 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
-
+title: 首页
 hero:
   name: "旅禾小栈"
   text: "未名岛"

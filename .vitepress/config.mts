@@ -4,7 +4,7 @@ import index from '../index'
 export default defineConfig({
   lang: "zh-CN",
   title: "旅禾小栈",
-  titleTemplate: ":title - 未名岛",
+  titleTemplate: ":title - 旅禾小栈·未名岛",
   description: " ",
   cleanUrls: true,
   metaChunk: true,
