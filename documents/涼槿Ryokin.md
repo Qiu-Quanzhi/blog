@@ -1,15 +1,7 @@
 # 涼槿 Ryokin
-一个Chromium内核的轻简浏览器，*但并不推荐使用*
+一个Chromium内核的轻简浏览器，*不提供任何维护*
 
-## [项目主页](https://ryokin.qqzhi.cc/)
-## 待更新内容 (快速迭代中)
-
-- TypeScript逻辑重构
-- 架构性能优化
-- 版本热更新
-- 完整的浏览器功能（历史、收藏等）
-- 设置菜单
-- 预热启动支持
+## [项目主页](https://github.com/Qiu-Quanzhi/Ryokin)
 
 ## 更新日志
 

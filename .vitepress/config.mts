@@ -3,12 +3,14 @@ import content from '../content'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   lang: "zh-CN",
+  
   title: "旅禾小栈",
   titleTemplate: ":title - 未名岛",
   description: " ",
   cleanUrls: true,
   metaChunk: true,
   mpa: false,
+  head:[],
   lastUpdated: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -18,17 +20,17 @@ export default defineConfig({
       { text: '暇造坊', link: '/documents' },
       { text: '主站', link: 'https://www.qqzhi.cc/' }
     ],
-
-    sidebar: [
-      {
+    
+    sidebar: {
+      '/articles/':[{
         text: '始序阁',
         items: content.get('articles')
-      },
-      {
+      }],
+      '/documents/':[{
         text: '暇造坊',
         items: content.get('documents')
-      }
-    ],
+      }]
+    },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Qiu-Quanzhi' }
     ],
@@ -45,15 +47,21 @@ export default defineConfig({
         timeStyle: 'medium'
       }
     },
+    aside: true,
+    outline: {
+      level:"deep",
+      label: '目录'
+    },
     docFooter: {
       prev: '上一篇',
       next: '下一篇'
     },
+    langMenuLabel: '语言选项',
     darkModeSwitchLabel: '深色模式',
     darkModeSwitchTitle: '切换到深色模式',
     lightModeSwitchTitle: '切换到浅色模式',
-    sidebarMenuLabel: '目录',
-    returnToTopLabel: '返回顶部',
+    sidebarMenuLabel: '菜单',
+    returnToTopLabel: '回到页首',
     search: {
       provider: 'local',
       options:{

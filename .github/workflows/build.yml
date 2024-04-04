@@ -21,6 +21,9 @@ jobs:
         uses: actions/checkout@v4
       - name: 页面初始化
         uses: actions/configure-pages@v5
+      - name: 统一配置
+        run: |
+          curl -o .vitepress/dist/favicon.ico https://www.qqzhi.cc/favicon.ico
       - name: 页面上传
         uses: actions/upload-pages-artifact@v3
         with:
