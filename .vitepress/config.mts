@@ -88,8 +88,13 @@ export default defineConfig({
     hostname: 'https://blog.qqzhi.cc',
     lastmodDateOnly: true,
     transformItems(items) {
-        console.log(items.filter)
-        return items.filter((page)=>!index.getIndex().concat('README').includes(page.url))
+      let list=items.filter((page)=>!index.getIndex().concat('README').includes(page.url))
+      // console.log(list)
+      for (const iterator of list) {
+        iterator.priority=iterator.url==''?1:0.9
+        iterator.changefreq='weekly'
+      }
+      return list
     },
   }
 })
