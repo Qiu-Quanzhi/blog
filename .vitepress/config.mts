@@ -9,7 +9,9 @@ export default defineConfig({
   cleanUrls: true,
   metaChunk: true,
   mpa: false,
-  head:[],
+  head:[
+    ['meta',{name: 'keywords',content:'未名岛,旅禾小栈,邱泉智,旅禾,旅禾Tristan,Tristan Chiu,Qiu Quanzhi'}]
+  ],
   lastUpdated: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
