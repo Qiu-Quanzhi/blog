@@ -40,11 +40,17 @@ export default defineConfig({
     },
     logo: 'https://www.qqzhi.cc/favicon.ico',
     siteTitle: '旅禾小栈·未名岛',
+    notFound:{
+      title: '页面未找到',
+      quote: '乘风破浪会有时，直挂云帆济沧海。',
+      linkLabel: '返回首页',
+      linkText: '返回首页'
+    },
     lastUpdated: {
-      text: '更新于',
+      text: '编辑于',
       formatOptions: {
         dateStyle: 'full',
-        timeStyle: 'medium'
+        timeStyle: 'full'
       }
     },
     aside: true,
