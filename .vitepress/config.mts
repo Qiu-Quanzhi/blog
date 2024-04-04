@@ -5,7 +5,7 @@ export default defineConfig({
   lang: "zh-CN",
   title: "未名岛",
   titleTemplate: ":title - 旅禾小栈·未名岛",
-  description: "存晾各类闲笔杂章，未名岛静候你的光临",
+  description: "旅禾小栈·未名岛静候你的光临，此处存晾着各类闲笔杂章",
   cleanUrls: true,
   metaChunk: true,
   mpa: false,
