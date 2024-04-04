@@ -3,9 +3,9 @@ import index from '../index'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   lang: "zh-CN",
-  title: "旅禾小栈",
+  title: "未名岛",
   titleTemplate: ":title - 旅禾小栈·未名岛",
-  description: "存晾各类闲笔杂章，旅禾小栈静候你的光临",
+  description: "存晾各类闲笔杂章，未名岛静候你的光临",
   cleanUrls: true,
   metaChunk: true,
   mpa: false,
