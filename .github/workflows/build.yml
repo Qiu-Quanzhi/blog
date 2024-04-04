@@ -25,7 +25,7 @@ jobs:
         run: |
           curl -o .vitepress/dist/favicon.ico https://www.qqzhi.cc/favicon.ico
       - name: IndexNow配置
-        run: echo ${{secrets.INDEXNOW_KEY}} > dist/${{secrets.INDEXNOW_KEY}}.txt
+        run: echo ${{secrets.INDEXNOW_KEY}} > .vitepress/dist/${{secrets.INDEXNOW_KEY}}.txt
       - name: 页面上传
         uses: actions/upload-pages-artifact@v3
         with:
@@ -36,5 +36,5 @@ jobs:
       - name: IndexNow推送
         uses: bojieyang/indexnow-action@v2
         with:
-          sitemap-location: 'https://www.qqzhi.cc/sitemap.xml'
+          sitemap-location: 'https://blog.qqzhi.cc/sitemap.xml'
           key: ${{ secrets.INDEXNOW_KEY }}
