@@ -3,7 +3,6 @@ import index from '../index'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   lang: "zh-CN",
-  
   title: "旅禾小栈",
   titleTemplate: ":title - 未名岛",
   description: " ",
@@ -26,7 +25,7 @@ export default defineConfig({
     ],
     footer: {
       message: '未经作者授权，禁止转载',
-      copyright: `© ${new Date(Date.now() + 8 * 60 * 60 * 1000).getUTCHours()} 旅禾Tristan`
+      copyright: `© ${new Date(Date.now() + 8 * 60 * 60 * 1000).getUTCFullYear()} 旅禾Tristan`
     },
     logo: 'https://www.qqzhi.cc/favicon.ico',
     siteTitle: '旅禾小栈·未名岛',
@@ -87,10 +86,10 @@ export default defineConfig({
   },
   sitemap: {
     hostname: 'https://blog.qqzhi.cc',
-    lastmodDateOnly: false,
+    lastmodDateOnly: true,
     transformItems(items) {
         console.log(items.filter)
-        return items.filter((page)=>!index.getIndex().includes(page.url))
+        return items.filter((page)=>!index.getIndex().concat('README').includes(page.url))
     },
   }
 })
