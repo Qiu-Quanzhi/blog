@@ -7,7 +7,7 @@ const contents: { [index: string]: Array<string> } = {
         '夕拾散记×信宜中学'
     ],
     'documents': [
-        '涼槿Ryokin'
+        '古国简展'
     ]
 }
 const getIndex=()=>{
