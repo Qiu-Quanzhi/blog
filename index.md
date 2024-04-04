@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "旅禾小栈"
-  text: "停书笥"
+  text: "未名岛"
   tagline: 在这里，欢迎阅览各类文档文案！
   actions:
     - theme: brand

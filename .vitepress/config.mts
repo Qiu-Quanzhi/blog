@@ -97,6 +97,10 @@ export default defineConfig({
   },
   sitemap: {
     hostname: 'https://blog.qqzhi.cc',
-    lastmodDateOnly: true
+    lastmodDateOnly: true,
+    transformItems(items) {
+        console.log(items.filter)
+        return items.filter((page)=>!['articles','documents'].includes(page.url))
+    },
   }
 })
