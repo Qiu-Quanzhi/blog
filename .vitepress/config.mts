@@ -10,7 +10,8 @@ export default defineConfig({
   metaChunk: true,
   mpa: false,
   head:[
-    ['meta',{name: 'keywords',content:'未名岛,旅禾小栈,邱泉智,旅禾,旅禾Tristan,Tristan Chiu,Qiu Quanzhi'}]
+    ['meta',{name: 'robots',content:'index,follow'}],
+    ['meta',{name: 'keywords',content:'未名岛,邱泉智,旅禾,旅禾小栈,旅禾Tristan,Tristan Chiu,Qiu Quanzhi'}]
   ],
   lastUpdated: true,
   themeConfig: {
