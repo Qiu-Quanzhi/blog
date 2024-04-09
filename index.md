@@ -26,4 +26,9 @@ features:
     details: 挂展各造物之文档<br>琳琅各色的应用项目，在此静候光临
   - title: 旅禾主站
     details: 进入主站<br>来看一看，说不定会有什么好玩儿的？
+
+head:
+  - - meta
+    - name: canonical
+      content: https://blog.qqzhi.cc/
 ---
