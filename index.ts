@@ -1,6 +1,6 @@
 const indexs = [
-    { text: '始序阁', link: '/articles' },
-    { text: '造暇坊', link: '/documents' },
+    { text: '始序阁', link: '/articles', rel:'nofollow' },
+    { text: '造暇坊', link: '/documents', rel:'nofollow' },
 ]
 const contents: { [index: string]: Array<string> } = {
     'articles': [

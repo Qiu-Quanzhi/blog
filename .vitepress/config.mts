@@ -11,7 +11,7 @@ export default defineConfig({
   mpa: false,
   head:[
     ['meta',{name: 'robots',content:'index,follow'}],
-    ['meta',{name: 'keywords',content:'未名岛,邱泉智,旅禾,旅禾小栈,旅禾Tristan,Tristan Chiu,Qiu Quanzhi'}]
+    ['meta',{name: 'keywords',content:'未名岛,邱泉智,旅禾,旅禾小栈,旅禾Tristan,Qiu Quanzhi,博客,blog'}]
   ],
   lastUpdated: true,
   themeConfig: {

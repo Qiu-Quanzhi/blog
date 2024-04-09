@@ -3,7 +3,7 @@ layout: false
 head:
   - - meta
     - name: robots
-      content: noindex
+      content: noindex, nofollow
 ---
 <script setup>
   import index from './index'

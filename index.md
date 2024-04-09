@@ -10,9 +10,11 @@ hero:
     - theme: brand
       text: 始序阁
       link: ./articles
+      rel: nofollow
     - theme: alt
       text: 造暇坊
       link: ./documents
+      rel: nofollow
     - theme: alt
       text: 主站
       link: https://www.qqzhi.cc/
