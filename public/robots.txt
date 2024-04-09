@@ -1,3 +1,7 @@
-# robots.txt
 User-agent: *
+Allow: /
+
+User-agent: *
+disallow: /*.html
+
 Sitemap: https://blog.qqzhi.cc/sitemap.xml
