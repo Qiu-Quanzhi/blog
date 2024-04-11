@@ -28,7 +28,7 @@ features:
     details: 进入主站<br>来看一看，说不定会有什么好玩儿的？
 
 head:
-  - - meta
+  - - link
     - name: canonical
-      content: https://blog.qqzhi.cc/
+      href: https://blog.qqzhi.cc/
 ---
