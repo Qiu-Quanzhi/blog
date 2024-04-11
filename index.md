@@ -29,6 +29,6 @@ features:
 
 head:
   - - link
-    - name: canonical
+    - rel: canonical
       href: https://blog.qqzhi.cc/
 ---
