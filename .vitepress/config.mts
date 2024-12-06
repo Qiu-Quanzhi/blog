@@ -39,7 +39,7 @@ export default defineConfig({
       linkText: '返回首页'
     },
     lastUpdated: {
-      text: '编辑于',
+      text: '上次更新于',
       formatOptions: {
         dateStyle: 'full',
         timeStyle: 'full'

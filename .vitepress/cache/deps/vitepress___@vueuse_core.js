@@ -5,6 +5,7 @@ import {
   assert,
   breakpointsAntDesign,
   breakpointsBootstrapV5,
+  breakpointsElement,
   breakpointsMasterCss,
   breakpointsPrimeFlex,
   breakpointsQuasar,
@@ -273,8 +274,8 @@ import {
   watchTriggerable,
   watchWithFilter,
   whenever
-} from "./chunk-DLJNB5KI.js";
-import "./chunk-OOO2W3XR.js";
+} from "./chunk-63UVZUPD.js";
+import "./chunk-CQOUZRMK.js";
 export {
   DefaultMagicKeysAliasMap,
   StorageSerializers,
@@ -284,6 +285,7 @@ export {
   refAutoReset as autoResetRef,
   breakpointsAntDesign,
   breakpointsBootstrapV5,
+  breakpointsElement,
   breakpointsMasterCss,
   breakpointsPrimeFlex,
   breakpointsQuasar,
