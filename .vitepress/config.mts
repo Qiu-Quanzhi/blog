@@ -33,7 +33,7 @@ export default defineConfig({
       message: '未经作者授权，禁止转载',
       copyright: `© ${new Date(Date.now() + 8 * 60 * 60 * 1000).getUTCFullYear()} 旅禾Tristan`
     },
-    logo: 'https://www.qqzhi.cc/favicon.ico',
+    logo: 'https://blog.qqzhi.cc/favicon.ico',
     siteTitle: '旅禾小栈·未名岛',
     notFound:{
       title: '页面未找到',
