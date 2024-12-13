@@ -5,11 +5,12 @@ export default defineConfig({
   lang: "zh-CN",
   title: "未名岛",
   titleTemplate: ":title - 旅禾小栈·未名岛",
-  description: "旅禾小栈·未名岛静候你的光临，此处存晾着各类闲笔杂章",
+  description: "旅禾小栈·未名岛静候你的光临，此处存晾着各类闲笔杂章（旅禾 邱泉智的博客文章专栏）",
   cleanUrls: true,
   metaChunk: true,
   mpa: false,
   head:[
+    ['link',{rel: 'icon', href: 'https://blog.qqzhi.cc/favicon.ico' }],
     ['meta',{name: 'robots',content:'index,follow'}],
     ['meta',{name: 'keywords',content:'未名岛,邱泉智,旅禾,旅禾小栈,旅禾Tristan,Qiu Quanzhi,博客,blog'}]
   ],
@@ -27,11 +28,13 @@ export default defineConfig({
     
     sidebar: index.getSidebar(),
     socialLinks: [
+      { icon: 'x', link: 'https://x.com/RyoineQ' },
+      { icon: 'linkedin', link: 'https://www.linkedin.com/in/qqz/' },
       { icon: 'github', link: 'https://github.com/Qiu-Quanzhi' }
     ],
     footer: {
-      message: '未经作者授权，禁止转载',
-      copyright: `© ${new Date(Date.now() + 8 * 60 * 60 * 1000).getUTCFullYear()} 旅禾Tristan`
+      message: '<a href="https://blog.qqzhi.cc/">旅禾小栈</a> 所有内容由 <a href="https://www.qqzhi.cc/">旅禾Tristan</a> 创作，并以 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans">CC BY-NC-SA 4.0</a> 协议提供',
+      copyright: `© ${new Date(Date.now() + 8 * 60 * 60 * 1000).getUTCFullYear()} <a href="https://www.qqzhi.cc/">旅禾Tristan</a>`
     },
     logo: 'https://blog.qqzhi.cc/favicon.ico',
     siteTitle: '旅禾小栈·未名岛',
